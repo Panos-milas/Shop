@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h2><a href="index.html">Οι Πίτες του Πίτου</a></h2>
+        <p>Πάρε μου μία ... πίτα!</p>
+        <nav>
+            <ul>
+                <li><a href="store.html">Κατάστημα</a></li>
+                <li><a href="pies.html">Πίτες</a></li>
+                <li><a href="contact.html">Επικοινωνία</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Επικοινωνία</h1>
+        <article>
+            <form action="/sendData" method="post">
+                <label for="first-lastName">Ονοματεπώνυμο:</label>
+                <input type="text" id="first-lastName" name="first-lastName" minlength="3" maxlength="40" required>
+                (*)
+                <br>
+                <label for="mail">E-mail:</label>
+                <input type="text" id="mail" name="e-mail" size="40" required>
+                (*)
+                <br>
+                <label for="phone">Τηλέφωνο:</label>
+                <input type="tel" id="phone" name="telephone" size="6">
+                <br>
+                <label for="comm">Μήνυμα:</label> 
+                <textarea name="comments" id="comm" rows="6" cols="40" required></textarea>
+                <br>
+                (*) Τα πεδία είναι υποχρεωτικά
+                <br>
+                <input type="submit" value="Αποστολή">
+                <input type="reset" value="Καθαρισμός">
+            </form>
+        </article>
+    </main>
+    <aside>
+        <h2>Προσφορές</h2>
+        <p>Giveaway 1</p>
+        <p>Στις 10 η 1 δώρο</p>
+    </aside>
+    <footer>
+        <p>&copy; Οι Πίτες του Πίτου 2025</p>
+    </footer>
+</body>
+
+</html>
